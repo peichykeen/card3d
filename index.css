@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    min-height: 65vh;
+    width: 40rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.me {
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me img {
+    width: 20rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.circle {
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.info h1 {
+    font-size: 3rem;
+    transition: all 0.75s ease-out;
+}
+
+.info h3 {
+    font-size: 1.3rem;
+    padding: 0rem 0rem 3rem 0rem;
+    color:#585858;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease-out;
+}
+
+.nav button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: lightgray;
+}
+
+button.active {
+    background: darkgray;
+    color: white
+}
+
+.continue {
+    margin-top: 5rem;
+    transition: all 0.75s ease-out;
+}
+
+.continue button {
+    width: 100%;
+    padding: 1rem 0rem;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.display {
+    min-height: 65vh;
+    width: 70rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.links {
+    text-align: left;
+    width: 80%;
+    margin: auto auto 100px auto;
+    padding-top: 10px;
+}
+
+.links h1 {
+    padding-top: 90px;
+    line-height: 2;
+}
+
+.github-img2 {
+    float: right;
+    position: relative;
+    bottom: 90px;
+    width: 15%;
+}
+
+.github-img {
+    float: left;
+    margin-top: 75px;
+    margin-right: 55px;
+}
+
+.github-img3 {
+    float: left;
+    margin-top: 75px;
+    margin-right: 55px;
+    width: 15%;
+}
+
